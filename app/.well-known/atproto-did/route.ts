@@ -23,8 +23,8 @@ export async function GET(request: NextRequest) {
         });
         did = user?.did;
     } else {
-        // root domain for main @transgirl.love account
-        did = 'did:plc:iqa6bfednevr3dztjkz5nd2m';
+        // TODO: Create account for @lgbtq.town and add its did here
+        // did = 'did:plc:iqa6bfednevr3dztjkz5nd2m';
     }
 
     if (did) {
